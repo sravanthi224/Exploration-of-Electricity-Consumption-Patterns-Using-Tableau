@@ -9,6 +9,7 @@ def hello_world():
     return render_template('index.html')
 
 # Corrected the syntax here: '__name__' and '__main__' require double underscores
-if __name__ == '__main__':
+#if __name__ == '__main__':
     # debug=True is helpful during development to see errors in the browser
-    app.run(debug=True)
+
+    #app.run(debug=True)
